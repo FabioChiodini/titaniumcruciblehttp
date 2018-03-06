@@ -6,7 +6,7 @@ titanium crucible that logs to HTTP
 
 Here's the simplest configuration to filter the logs produced for a geoip localization via ELK:
 
-'''
+```
 input {
   http { 
 #  tcp {
@@ -33,4 +33,4 @@ geoip {
 }
 
 [redacted]
-''
+```
